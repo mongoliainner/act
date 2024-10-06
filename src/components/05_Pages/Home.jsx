@@ -4,7 +4,7 @@ import Base from "../01_Atoms/Typography/Base/Base";
 function Home() {
   return (
     <div className="App">
-      <Base></Base>
+      <Base level="2">fuck </Base>
     </div>
   );
 }
