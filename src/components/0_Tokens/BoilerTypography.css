@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "PP";
+  src: url("../../fonts/InterTight-VariableFont_wght.ttf") format("truetype");
+  font-style: Medium;
+  font-weight: Medium;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;

@@ -1,18 +1,23 @@
 import React from "react";
-import styles from "./Base.module.css";
+import styles from "../../../0_Tokens/Boiler.css";
+import BaseStyle from "./Base.module.css";
 
 function Base() {
   return (
-    <div className={styles.error}>
-      Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-      Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала
-      XVI века. В то время некий безымянный печатник создал большую коллекцию
-      размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
-      Lorem Ipsum не только успешно пережил без заметных изменений пять веков,
-      но и перешагнул в электронный дизайн. Его популяризации в новое время
-      послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах
-      и, в более недавнее время, программы электронной вёрстки типа Aldus
-      PageMaker, в шаблонах которых используется Lorem Ipsum.
+    <div>
+      <p className="text-xs">This is a small text.</p>
+      <p className="text-sm">This is a slightly larger text.</p>
+      <p className="text-base">This is a base text.</p>
+      <p className="text-lg">This is a large text.</p>
+      <p className="text-xl">This is an extra-large text.</p>
+      <p className="text-2xl">This is a 2xl text.</p>
+      <p className="text-3xl">This is a 3xl text.</p>
+      <p className="text-4xl">This is a 4xl text.</p>
+      <p className="text-5xl">This is a 5xl text.</p>
+      <p className="text-6xl">This is a 6xl text.</p>
+      <p className="text-7xl">This is a 7xl text.</p>
+      <p className="text-8xl">This is a 8xl text.</p>
+      <p className="text-9xl">This is a 9xl text.</p>
     </div>
   );
 }
