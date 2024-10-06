@@ -1,9 +1,10 @@
 import React from "react";
+import Base from "../01_Atoms/Typography/Base/Base";
 
 function Home() {
   return (
     <div className="App">
-      <h1 style={{ color: "red", fontSize: "48px" }}>fuck</h1>
+      <Base>base</Base>
     </div>
   );
 }
