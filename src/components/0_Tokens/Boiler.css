@@ -1,2 +1,9 @@
-@import "BoilerColors.css";
+/* Sizing */
 @import "BoilerResponsive";
+@import "BoilerSizing";
+
+/*Colors*/
+@import "BoilerColors.css";
+
+/* Typography */
+@import "BoilerTypography.css";

@@ -1,6 +1,5 @@
 @import "../../../0_Tokens/Boiler.css";
 
 .error {
-  color: var(--sky-950);
   font-size: var(--size-4);
 }
