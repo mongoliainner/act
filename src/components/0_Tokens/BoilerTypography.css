@@ -4,6 +4,9 @@
   font-style: Medium;
   font-weight: Medium;
 }
+body {
+  font-family: "PP";
+}
 
 .text-xs {
   font-size: 0.75rem;
