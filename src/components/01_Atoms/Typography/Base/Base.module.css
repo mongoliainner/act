@@ -1,20 +1,12 @@
-@import "../../../0_Tokens/BoilerSizing.css";
-
 .text-xs {
-  font-size: var(--size-3);
-  line-height: var(--size-4);
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
-
-/*this is p*/
-
 .text-sm {
-  font-size: var(--size-3-5);
-  line-height: var(--size-5);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
-
-/*this is p*/
-
 .text-base {
-  font-size: var(--size-4);
-  line-height: var(--size-6);
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
