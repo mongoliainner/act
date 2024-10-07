@@ -1,5 +1,5 @@
 import React, { Children } from "react";
-import styles from "../../../0_Tokens/Boiler.css";
+import BaseStyle from "./Base.module.css";
 
 function Base({ weight, className, children }) {
   return (

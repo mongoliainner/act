@@ -1,5 +1,5 @@
 import React, { Children } from "react";
-import styles from "../../../0_Tokens/Boiler.css";
+import HeaddingStyle from "./Headding.module.css";
 
 function Headding({ level, weight, className, children }) {
   const HeadingLevel = `h${level}`;
