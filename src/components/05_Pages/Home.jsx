@@ -5,7 +5,7 @@ import Headding from "../01_Atoms/Typography/Headding/Headding";
 function Home() {
   return (
     <div className="App">
-      <Headding weight="500" level="1" className={HeaddingStyle.defaultHeading}>
+      <Headding weight="500" level="1">
         Я, в своем познании настолько преисполнился, что как будто бы уже сто
         триллионов миллиардов лет, проживаю на триллионах и триллионах таких же
         планет. Планет, как эта Земля. Мне этот мир уже во многом понятен, и ищу
