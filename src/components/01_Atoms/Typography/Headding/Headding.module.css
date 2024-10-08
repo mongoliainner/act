@@ -1,5 +1,17 @@
 @import "../../../0_Tokens/Boiler.css";
 
+.defaultHeading {
+  color: blue;
+  font-size: 2rem;
+}
+
+/* Additional styles for customization */
+.customClass {
+  color: red;
+  font-size: 1.5rem;
+}
+
+/*
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -40,3 +52,4 @@
   font-size: 8rem;
   line-height: 1;
 }
+*/
