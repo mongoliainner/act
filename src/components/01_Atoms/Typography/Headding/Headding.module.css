@@ -1,55 +1,56 @@
 @import "../../../0_Tokens/Boiler.css";
 
-.defaultHeading {
-  color: blue;
-  font-size: 2rem;
+* {
+  overflow-y: hidden;
 }
 
-/* Additional styles for customization */
-.customClass {
-  color: red;
-  font-size: 1.5rem;
-}
-
-/*
-.text-lg {
+h6 {
   font-size: 1.125rem;
   line-height: 1.75rem;
+  font-weight: 500;
 }
-.text-xl {
+h5 {
   font-size: 1.25rem;
   line-height: 1.75rem;
+  font-weight: 500;
 }
-.text-2xl {
+h4 {
   font-size: 1.5rem;
   line-height: 2rem;
+  font-weight: 500;
 }
-.text-3xl {
+h3 {
   font-size: 1.875rem;
   line-height: 2.25rem;
+  font-weight: 500;
 }
-.text-4xl {
+h2 {
   font-size: 2.25rem;
   line-height: 2.5rem;
+  font-weight: 500;
 }
-.text-5xl {
+h1 {
   font-size: 3rem;
   line-height: 1;
+  font-weight: 500;
 }
-.text-6xl {
+.TitleSmall {
   font-size: 3.75rem;
   line-height: 1;
+  font-weight: 500;
 }
-.text-7xl {
+.TitleMedium {
   font-size: 4.5rem;
   line-height: 1;
+  font-weight: 500;
 }
-.text-8xl {
+.TitleLarge {
   font-size: 6rem;
   line-height: 1;
+  font-weight: 500;
 }
-.text-9xl {
+.TitleLargest {
   font-size: 8rem;
   line-height: 1;
+  font-weight: 500;
 }
-*/

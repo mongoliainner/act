@@ -1,13 +1,15 @@
-import React, { Children } from "react";
+import React from "react";
 import styles from "./Headding.module.css";
 
-function Headding({ level, weight, className = "", children }) {
+function Headding({ level = 1, weight, className, children }) {
   const HeadingLevel = `h${level}`;
+
+  const combinedClassName = className
+    ? `${styles[className]} ${styles.text}`
+    : styles.defaultHeading;
+
   return (
-    <HeadingLevel
-      className={`${styles.defaultHeading} ${className}`}
-      style={{ fontWeight: weight }}
-    >
+    <HeadingLevel className={combinedClassName} style={{ fontWeight: weight }}>
       {children}
     </HeadingLevel>
   );
