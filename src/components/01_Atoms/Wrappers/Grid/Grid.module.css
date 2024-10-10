@@ -1,0 +1,7 @@
+.gridWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Default columns */
+  grid-template-rows: repeat(2, 1fr); /* Default rows */
+  padding: 0; /* Default padding */
+  gap: 10px; /* Default gap */
+}

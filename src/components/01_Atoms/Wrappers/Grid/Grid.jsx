@@ -2,36 +2,23 @@ import React from "react";
 import styles from "./Grid.module.css";
 
 function Grid({
-  direction = "column",
-  wrap = "nowrap",
-  justifyContent = "flex-start",
-  alignItems = "flex-start",
-  paddingTop = "0",
-  paddingBottom = "0",
-  paddingLeft = "0",
-  paddingRight = "0",
+  columns = 2,
+  rows = 2,
+  padding = "0",
   gap = "10px",
-  width = "100%",
-  height = "100%",
   className,
   children,
 }) {
-  const combinedClassName = className
-    ? `${styles[className]} ${styles.text}`
-    : styles.flexWrapper;
+  const combinedClassName = `${styles.gridWrapper} ${className || ""}`;
 
   return (
     <div
       className={combinedClassName}
       style={{
-        flexDirection: direction,
-        flexWrap: wrap,
-        justifyContent: justifyContent,
-        alignItems: alignItems,
-        padding: `${paddingTop} ${paddingRight} ${paddingBottom} ${paddingLeft}`,
+        gridTemplateColumns: `repeat(${columns}, 1fr)`,
+        gridTemplateRows: `repeat(${rows}, 1fr)`,
+        padding: padding,
         gap: gap,
-        width: width,
-        height: height,
       }}
     >
       {children}
