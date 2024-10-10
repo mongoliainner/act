@@ -1,9 +1,13 @@
 import React, { Children } from "react";
-import BaseStyle from "./Base.module.css";
+import styles from "./Base.module.css";
 
 function Base({ weight, className, children }) {
+  const combinedClassName = className
+    ? `${styles[className]} ${styles.text}`
+    : styles.base;
+
   return (
-    <p className={className} style={{ fontWeight: weight }}>
+    <p className={combinedClassName} style={{ fontWeight: weight }}>
       {children}
     </p>
   );

@@ -1,7 +1,7 @@
 @import "../../../0_Tokens/Boiler.css";
 
 * {
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 h6 {
@@ -39,17 +39,17 @@ h1 {
   line-height: 1;
   font-weight: 500;
 }
-.TitleMedium {
+.Title {
   font-size: 4.5rem;
   line-height: 1;
   font-weight: 500;
 }
-.TitleLarge {
+.TitleMedium {
   font-size: 6rem;
   line-height: 1;
   font-weight: 500;
 }
-.TitleLargest {
+.TitleLarge {
   font-size: 8rem;
   line-height: 1;
   font-weight: 500;

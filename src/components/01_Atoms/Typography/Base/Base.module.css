@@ -1,14 +1,16 @@
 @import "../../../0_Tokens/Boiler.css";
 
-.text-xs {
+.caption {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+}
+.footnote {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.base {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 500;
 }
