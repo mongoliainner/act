@@ -9,16 +9,7 @@ import styles from "./Home.module.css";
 function Home() {
   return (
     <div className={styles.Home}>
-      <Grid className="name" columns={6} rows={2}>
-        <GridItem gridColumn="span 5" className="card">
-          Эффекты
-        </GridItem>
-        <GridItem className="card">
-          <Headding level={5}>fefe</Headding>
-        </GridItem>
-        <GridItem className="card">Эффекты</GridItem>
-      </Grid>
-      <Headding className="TitleLarge">SORE</Headding>
+      <Headding className="TitleLarge">act</Headding>
     </div>
   );
 }
