@@ -8,25 +8,17 @@ import styles from "./Home.module.css";
 
 function Home() {
   return (
-    <div className="Home">
-      <Headding className="TitleLarge">Говно</Headding>
-      <Base>
-        Говно, залупа, пенис, хер, давалка, хуй, блядина. Головка, шлюха, жопа,
-        член, еблан, петухГовно, залупа, пенис, хер, давалка, хуй, блядина.
-        Головка, шлюха, жопа, член, еблан, петухГовно, залупа, пенис, хер,
-        давалка, хуй, блядина. Головка, шлюха, жопа, член, еблан, петухГовно,
-        залупа, пенис, хер, давалка, хуй, блядина. Головка, шлюха, жопа, член,
-        еблан, петухГовно, залупа, пенис, хер, давалка, хуй, блядина. Головка,
-        шлюха, жопа, член, еблан, петух
-      </Base>
-      <Grid>
-        <GridItem gridRow="span 2">
-          <Headding className="TitleLarge">Г</Headding>
+    <div className={styles.Home}>
+      <Grid className="name" columns={6} rows={2}>
+        <GridItem gridColumn="span 5" className="card">
+          Эффекты
         </GridItem>
-        <GridItem className="red">о</GridItem>
-        <GridItem>в</GridItem>
-        <GridItem>но</GridItem>
+        <GridItem className="card">
+          <Headding level={5}>fefe</Headding>
+        </GridItem>
+        <GridItem className="card">Эффекты</GridItem>
       </Grid>
+      <Headding className="TitleLarge">ONEEYEOPEN</Headding>
     </div>
   );
 }

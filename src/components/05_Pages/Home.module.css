@@ -1,5 +1,7 @@
 @import "../../components/0_Tokens/Boiler.css";
 
 .Home {
-  background-color: var(--zinc-900);
+  background-color: var(--zinc-100);
+  width: 100dvw;
+  height: 100dvh;
 }
