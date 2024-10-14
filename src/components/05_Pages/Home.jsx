@@ -18,7 +18,7 @@ function Home() {
         </GridItem>
         <GridItem className="card">Эффекты</GridItem>
       </Grid>
-      <Headding className="TitleLarge">ONEEYEOPEN</Headding>
+      <Headding className="TitleLarge">SORE</Headding>
     </div>
   );
 }
