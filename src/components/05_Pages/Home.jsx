@@ -10,6 +10,7 @@ function Home() {
   return (
     <div className={styles.Home}>
       <Headding className="TitleLarge">act</Headding>
+      <Base>Тестим</Base>
     </div>
   );
 }
