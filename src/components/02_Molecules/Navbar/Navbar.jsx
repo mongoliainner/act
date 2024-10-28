@@ -5,8 +5,8 @@ import Flex from "../../01_Atoms/Wrappers/Flex/Flex";
 
 function Navbar({ level = 1, weight, className, children }) {
   return (
-    <Flex direction="row" className={styles.navbar}>
-      <Headding level={4}>act.</Headding>
+    <Flex direction="row">
+      <Headding level={3}>act.</Headding>
     </Flex>
   );
 }
