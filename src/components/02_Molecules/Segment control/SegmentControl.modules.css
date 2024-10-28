@@ -1,0 +1,29 @@
+.segmentControl {
+  display: flex;
+  justify-content: space-between;
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.segmentButton {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.segmentButton:hover {
+  background-color: #ddd;
+}
+
+.active {
+  background-color: #007bff;
+  color: white;
+}
